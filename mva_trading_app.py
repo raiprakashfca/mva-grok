@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -10,6 +11,7 @@ import gspread
 import json
 import re
 from urllib.parse import urlparse, parse_qs
+from typing import Optional
 
 # ============================
 # CONFIG (Add to Streamlit secrets or env vars)
