@@ -1,0 +1,7 @@
+streamlit
+kiteconnect
+pandas
+numpy
+statsmodels
+yfinance
+gspread
